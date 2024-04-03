@@ -5,7 +5,6 @@ import os
   
 dirname = os.path.dirname(__file__)
 animation_path = os.path.join(dirname,'/animations/Animation.json')
-st.write(os.getcwd() + '/animations/Animation.json')
 # path = "../animations/Animation.json"
 path = os.getcwd() + '/animations/Animation.json'
 with open(path,"r") as file: 

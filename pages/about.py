@@ -3,12 +3,15 @@ import json
 from streamlit_lottie import st_lottie 
 import os
   
-  
-path = "D:\Advance Python Streamlit\project\Animation.json"
+dirname = os.path.dirname(__file__)
+animation_path = os.path.join(dirname,'/animations/Animation.json')
+st.write(os.getcwd() + '/animations/Animation.json')
+# path = "../animations/Animation.json"
+path = os.getcwd() + '/animations/Animation.json'
 with open(path,"r") as file: 
     url = json.load(file) 
 
-path1 = "D:\Advance Python Streamlit\project\Animation1.json"
+path1 = os.getcwd() + '/animations/Animation1.json'
 with open(path1,"r") as file: 
     url1 = json.load(file) 
 def about_page():

@@ -5,9 +5,9 @@ This project aims to assess student performance based on their use of generative
 # Features
 - Data Collection and Preprocessing: Includes methods for handling and analyzing data collected from 150 students.
 -- Performance Metrics: Evaluation of students across:
-* Critical Thinking
-* Problem-Solving
-* Knowledge Retention
+  * Critical Thinking
+  * Problem-Solving
+  * Knowledge Retention
 - Interactive Dashboard: Built with Streamlit to provide:
 - Visualizations of performance metrics
 - Insights into the impact of generative AI on learning outcomes
@@ -25,7 +25,9 @@ This project aims to assess student performance based on their use of generative
 
 # Running the Application
 To launch the Streamlit app, execute the following command:
+```
 - streamlit run app.py
+```
 This will open the application in your default web browser. If it doesn't, copy and paste the URL shown in the terminal into your browser.
 
 # Usage
